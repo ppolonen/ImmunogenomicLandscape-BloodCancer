@@ -1,0 +1,17 @@
+type	name	scale	values	colors
+N:GEXP	Gene expression	T	-2, 0, 2	blue, white, red
+N:GEXP2	Gene expression2	F	0,1	white, red
+N:COUNT	Counts	F	0,15	white, red
+N:RPPA	Protein expression	T	-2, 0, 2	#0553f6, white, #ed3d27
+B:GEXP	Gene expression	F	0, 1	grey85,red
+B:CNVR	Cnvr	F	0, 1	grey85,red
+N:CNVR	Cnvr	F	2, 1, 0, -1, -2	#ff2500, #ff2500d0, grey85, #0433ffd2, #0433ff
+N:METH	Methylation	T	2,1,0,-1,-2	#ef9708,#f1aa66,#e2e2e2,#9c7d6a,#693c01
+B:GNAB	Mutation	F	0, 1	grey85, #018000
+B:SAMP	Sample annotation	F	0, 1	grey85, blue
+B:CLIN	Clinical	F	0, 1	grey85, black
+N:CLIN	Clinical	T	-2, 0, 2	darkgreen, white, purple
+N:DRUG	Drug	T	-2, 0, 2	darkgreen, white, purple
+N:GSVA	GSVA Score	T	2, 0, -2	darkred, white, darkblue
+N:SAMP	Sample annotation	T	-2, 0, 2	blue, white, red
+N:SAMB	Cibersort	F	0,0.2,0.4,0.6	grey90,#84b677,#bbb64b, #e26d30
