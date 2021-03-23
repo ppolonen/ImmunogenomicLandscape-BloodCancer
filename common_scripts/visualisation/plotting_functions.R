@@ -302,7 +302,7 @@ make.hm=function(i, dat, param, cluster_rows=F, cluster_columns=F, split=NULL, t
 }
 
 
-plot.complexHM.fm=function(feats, fm.f, annotdf=NULL, order_columns=NULL, order_rows=NULL, clean_name=T, feats.barplot=NULL,text_annot=NULL, split.columns=T, plotting.param="/research/work/ppolonen/plotting_tools/plotting_param_fm.txt", NAME=NULL, barplot.height=3, WIDTH=50, show_column_names=F, use_raster=F){
+plot.complexHM.fm=function(feats, fm.f, annotdf=NULL, order_columns=NULL, order_rows=NULL, clean_name=T, feats.barplot=NULL,text_annot=NULL, split.columns=T, plotting.param="plotting_param_fm.txt", NAME=NULL, barplot.height=3, WIDTH=50, show_column_names=F, use_raster=F){
   
   if(is.null(order_columns)){
     cluster_columns=T
